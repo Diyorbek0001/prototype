@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;  
+}
+.container {
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 20px;
+    padding: 20px;
+}
+.weatherBox {
+    text-align: center;
+}
+.searchBox {
+    margin-top: 20px;
+    text-align: center;   
+}
+input[type="text"] {
+    border-color: black;
+    border-style: solid;
+    border-width: 2px;
+    padding: 10px;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+button {
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    background-color: #ff7e5f;
+    color: white;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #ff6347;
+}
+p{
+    font-size: 30px;
+}
